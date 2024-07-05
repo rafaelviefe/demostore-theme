@@ -1,6 +1,8 @@
 {
   "store.home": {
     "blocks": [
+      "countdown",
+      "countdown.title",
       "flex-layout.row#slider",
       "rich-text#new-arrivals",
       "list-context.product-list#new-arrivals",
@@ -14,11 +16,16 @@
       "flex-layout.row#instagram"
     ]
   },
+  // "countdown": {
+  //   "props": {
+  //     "targetDate": "foi"
+  //   }
+  // },
   "rich-text#new-arrivals": {
     "props": {
       "text": "New arrivals",
       "font": "t-heading-2",
-      "text-position": "CENTER",
+      "textPosition": "CENTER",
       "textAlign": "CENTER"
     }
   },
@@ -26,7 +33,7 @@
     "props": {
       "text": "Clearance",
       "font": "t-heading-2",
-      "text-position": "CENTER",
+      "textPosition": "CENTER",
       "textAlign": "CENTER"
     }
   },
