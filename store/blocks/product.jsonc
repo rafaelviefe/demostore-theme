@@ -91,6 +91,7 @@
       "product-name",
       "product-price#product-details",
       "sku-selector",
+      "countdown",
       "flex-layout.row#buy-button",
       "shipping-simulator",
       "share#default"
